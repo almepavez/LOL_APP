@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Guía de Campeones LoL
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="auth-form">
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+
+        <h1>¡Bienvenido a esta guía de campeones de League of Legends!</h1>
+        <img alt="Silhouette of a person's head" src="https://cdn3.emoji.gg/emojis/2229_rammus_okay.png" />
+        <ion-button [routerLink]="['/registration']" expand="block" color="primary">Registrarse</ion-button>
+        <span class="divider line one-line"></span>
+        <ion-button [routerLink]="['/login']" expand="block" color="danger">Iniciar Sesión</ion-button>
+        <span class="divider line one-line"></span>
+        <ion-button [routerLink]="['/login']" expand="block" color="success"  href="src/app/campeones/campeones.page.html" >Continuar como Invitado</ion-button>
+
+
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
